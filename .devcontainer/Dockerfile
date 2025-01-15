@@ -1,3 +1,4 @@
 FROM mcr.microsoft.com/devcontainers/dotnet:1-8.0
-ENV PATH="$PATH:/root/.dotnet/tools"
+
+USER vscode
 RUN dotnet tool install --global dotnet-ef
