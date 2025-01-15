@@ -1,3 +1,6 @@
+[*.{cs,vb}]
+dotnet_diagnostic.IDE0005.severity = warning
+
 root = true
 
 # All files

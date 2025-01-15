@@ -23,3 +23,12 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+public class Hello
+{
+    public void Log(string message)
+    {
+        Console.WriteLine(message);
+    }
+}
