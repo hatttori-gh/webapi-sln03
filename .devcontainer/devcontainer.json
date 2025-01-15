@@ -21,7 +21,9 @@
 
 	// Configure tool-specific properties.
 	"customizations": {
-		"[csharp]": {
+		"vscode": {
+					        "settings": {
+        		"[csharp]": {
 		  "editor.defaultFormatter": "ms-dotnettools.csharp"
 		},
 		"[json]": {
@@ -35,8 +37,9 @@
 		},
 		"[yaml]": {
 		  "editor.defaultFormatter": "esbenp.prettier-vscode"
-		},
-		"vscode": {
+		},"editor.formatOnSave": true
+
+							},
 		  "extensions": [
 			"-dbaeumer.vscode-eslint",
 			"editorconfig.editorconfig",
