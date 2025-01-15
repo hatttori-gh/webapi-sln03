@@ -12,21 +12,26 @@
 	//		"5001": {
 	//			"protocol": "https"
 	//		}
-	// }
+	// }  
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "dotnet restore",
 	// Configure tool-specific properties.
-	"customizations": {
+	"customizations": {    
 		"settings": {
-			"editor.formatOnSave": true
-        },
-		"vscode": {
-			"extensions": [
-				"-dbaeumer.vscode-eslint",
-				"editorconfig.editorconfig",
+			"[json]": {
+				"editor.defaultFormatter": "esbenp.prettier-vscode"
+			},
+			"[jsonc]": {
+				"editor.defaultFormatter": "esbenp.prettier-vscode"
+			},
+			"editor.formatOnSave": true  
+        }, 
+		"vscode": { 
+			"extensions": [  
+				"-dbaeumer.vscode-eslint",   
+				"editorconfig.editorconfig", 
 				"esbenp.prettier-vscode",
-				"ms-ceintl.vscode-language-pack-ja",
-				"ms-dotnettools.csharp"
+				"ms-ceintl.vscode-language-pack-ja","ms-dotnettools.csdevkit",
 			]
 		}
 	}
